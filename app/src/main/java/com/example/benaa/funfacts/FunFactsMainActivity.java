@@ -26,7 +26,7 @@ public class FunFactsMainActivity extends AppCompatActivity {
                 Random randomGenerator = new Random();
 
                 int randomNumber = randomGenerator.nextInt(3);
-                String fact = randomNumber + "";
+                String fact = randomNumber + "Hi";
                 factTextView.setText(fact);
             }
         };
